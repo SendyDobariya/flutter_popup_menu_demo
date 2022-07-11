@@ -25,7 +25,7 @@ class _PopUpScreenState extends State<PopUpScreen> {
                     context,
                     MaterialPageRoute(
                         builder: (context) => const SettingPage()));
-              }
+              } else if (value == MenuItems.item2) {}
             },
             itemBuilder: (
               context,
